@@ -16,8 +16,10 @@ int main() {
         if (c == ' ') {
             ++b;
         }
-    }   
-    printf("\nNew Lines: %.0f\n", nl);
+    }
+
+    printf("\n");
+    printf("New Lines: %.0f\n", nl);
     printf("Blanks: %.0f\n", b);
     printf("Tabs: %.0f\n", t);
 

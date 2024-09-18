@@ -4,10 +4,11 @@
 #define FALSE 0
 
 int isBlank(int p) {
-        if (p == ' ' || p == '\t' || p == '\b' || p == '\n') {
-            return TRUE;
-        }
-        return FALSE;
+    if (p == ' ' || p == '\t' || p == '\b' || p == '\n') {
+        return TRUE;
+    }
+
+    return FALSE;
 }
 
 int main() {
@@ -25,5 +26,3 @@ int main() {
         }
     }
 } 
-
-

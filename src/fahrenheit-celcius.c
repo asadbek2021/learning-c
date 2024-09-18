@@ -10,6 +10,4 @@ int main(){
    for ( fahr = LOWEST; fahr <= HIGHEST; fahr = fahr + STEP) {
       printf("%3d %5.1f\n",fahr, (5.0 / 9.0)*(fahr - 32));
    }
-
-   return 0;
 }
